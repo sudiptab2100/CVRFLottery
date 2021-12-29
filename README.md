@@ -18,11 +18,9 @@ npx hardhat compile
 npx hardhat test
 ```
 
-### Deploy on Testnets
-npx hardhat run scripts/deploy.js --network <network-name><br />
-eg:
+### Deploy on Polygon(Mumbai Testnet):
 ```
-npx hardhat run scripts/deploy.js --network matic
+node scripts/deployer.js
 ```
 
 ### Verify smart contract on Polygonscan
